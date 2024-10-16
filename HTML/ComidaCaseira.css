@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Mont";
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+/* INICIO HADER */
+header{
+display: flex;
+align-items: center;
+margin: 0 50px;
+}
+a {
+    text-decoration: none;
+    color: #678471;
+    font-family: 'Mont', sans-serif;
+   font-size: 25px;
+   margin: 0 10px;
+} 
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+/* FIM HEADER */
+/* INICIO NOSSA COMIDA */
+.titulo {
+    color:  #678471 ;
+    font-size: 25px ;
+    font-family: "Mont", sans-serif;
+    margin: 0 15px;
+
+}
+.texto{
+    font-family: "Mont", sans-serif;
+    margin: 0 50px;
+    text-align: justify;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 70px;
+    
+}
+
+h4,h5,p {
+    font-family: "Mont", sans-serif;
+}
+/* FIM MAIN */
+.prato {
+    border: 1px solid black;
+    width: 250px;
+    text-align: center;
+    margin: 40px;
+    padding: 7px;
+}
+.comidas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.comidas img {
+    width: 200px ;
+}
+#nossoCardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}

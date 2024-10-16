@@ -1,0 +1,41 @@
+.container {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+.azul{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.verde{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.roxo{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+.verde{
+    margin: 0px;
+    margin-bottom: 0px;
+    /* Margin representa o espaço fora/*
+    /*cima direita baixo esquerda*/
+    /*largura da borda, ripo e cor*/
+    /*solid, dashed, double, dotted, groove, ridge*/
+    padding: 0px;
+    /*cima direita baixo esquerda*/
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+    /* row, row-reverse, column, column - reverse*/
+    justify-content: center;
+    /*right, left, center, space between, space-around, space-evenly*/
+    align-items: center;
+    /*flex-start, flex-end, center, baseline, stretch*/
+    flex-wrap: wrap-reverse;
+}

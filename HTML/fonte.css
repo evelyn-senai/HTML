@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Deep" ;
+    src: url(Deep\ Shadow.ttf);
+}
+h2 {
+    font-family: "Deep", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.texto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aquamarine;
+}

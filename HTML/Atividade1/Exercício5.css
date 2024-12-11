@@ -19,6 +19,12 @@
     src: url(font/Minya\ DEMO.otf);
 }
 
+@font-face {
+    font-family: "caprasimo";
+    src: url(font/Caprasimo-Regular.ttf)
+}
+
+
 
 .header{
  width: 1512px;
@@ -151,3 +157,191 @@ p{
     justify-content: space-between;
     margin-top: 20px;
 }
+
+.sorriso{
+    width: 121px;
+    height: 121px;
+position: absolute;
+right: -162%;
+    top: -10%;
+}
+
+.onda{
+    width: 422px;
+    height: 9px;
+    position: absolute;
+    right: -217%;
+    top: -12%;
+}
+
+.titulo1{
+    font-family: "caprasimo";
+    color:#FFECC4;
+    font-size: 96px;
+    position: absolute;
+    bottom: 23%;
+    right: -238%;
+    text-align: right;
+}
+
+.sobreNos{
+    height: 1145px;
+    background-color: #FFECC4;
+    display: flex;
+    flex-direction: column;
+}
+
+.comida1{
+    width: 491px;
+    height: 736px;
+    position: absolute;
+    top: 112%;
+    z-index: 1;
+}
+
+.comida2{
+    position: absolute;
+    right: 0px;
+    top: 108%;
+}
+
+.linha4{
+    position: absolute;
+    z-index: 1;
+}
+
+.texto1{
+    font-family: "bold";
+    font-size: 30px;
+    color: #EB638E;
+    position: absolute;
+    bottom: -63%;
+    left: 31%;
+    text-align: center;
+}
+
+.titulo2{
+  font-family: "minya";  
+  font-size: 70px;
+  color: #EB638E;
+  position: absolute;
+  bottom: -86%;
+  left: 41%;
+}
+
+.linha5{
+    width: 121px;
+    height: 2px;
+    background-color: #FBF6E2;
+    position: absolute; 
+    bottom: -82%;
+    left: 64%;
+}
+
+.linha6{
+    width: 121px;
+    height: 2px;
+    background-color: #FBF6E2;
+    position: absolute; 
+    bottom: -82%;
+    left: 30%;
+}
+
+.texto2{
+    font-size: 30px;
+    font-family: "bold";
+    color: white;
+    position: absolute;
+    bottom: -129%;
+    left: 17%;
+    text-align: center;
+}
+.fotos{
+    position: absolute;
+    position: absolute;
+     top: 239%;
+     left: 5%;
+ }
+
+.avaliacao{
+    height: 1793px;
+    width: 1512px;
+    background-color: #FBF6E2;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo3{
+    font-family: "minya";  
+    font-size: 70px;
+    color: #EB638E;
+    position: absolute;
+    bottom: -243%;
+    left: 35%;
+    text-align: center;
+}
+
+.texto3{
+    font-size: 30px;
+    font-family: "bold";
+    color: black;
+    position: absolute;
+    bottom: -258%;
+    left: 18%;
+    text-align: center;  
+}
+
+.caixa{
+    position: absolute;
+    top: 371%;
+    left: 10%;
+}
+.caixa2{
+    position: absolute;
+    top: 371%;
+    left: 58%;
+}
+
+.caixa3{
+    position: absolute;
+    top: 439%;
+    left: 34%;
+}
+
+
+.texto4{
+    font-size: 30px;
+    font-family: "bold";
+    color: black;
+    position: absolute;
+    bottom: -306%;
+    left: 13%;
+    text-align: center;
+}
+
+.texto5{
+    font-size: 30px;
+    font-family: "bold";
+    color: black;
+    position: absolute;
+    bottom: -305%;
+    left: 60%;
+    text-align: center;
+}
+
+.texto6{
+    font-size: 30px;
+    font-family: "bold";
+    color: black;
+    position: absolute;
+    bottom: -373%;
+    left: 37%;
+    text-align: center;
+}
+
+.comida3{
+    position: absolute;
+    right: 0px;
+    top: 108%;
+}
+  

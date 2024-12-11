@@ -340,8 +340,37 @@ right: -162%;
 }
 
 .comida3{
+    width: 510px;
+    height: 711px;
+    position: absolute;
+    right: 63%;
+    top: 418%;
+}
+
+.comida4{
+    width: 634px;
+    height: 634px;
     position: absolute;
     right: 0px;
-    top: 108%;
+    top: 430%;
 }
   
+footer{
+    height: 354px;
+    background-color: #EB638E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lorem1{
+  display: flex;
+  flex-direction: column;  
+}
+
+.top1{
+    display: flex;
+  flex-direction: column; 
+   
+}

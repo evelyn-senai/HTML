@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(font/Champagne\ &\ Limousines.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(font/Champagne\ &\ Limousines\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "minya";
+    src: url(font/Minya\ DEMO.otf);
+}
+
+
+.header{
+ width: 1512px;
+ height: 839px;
+ background-image: url(img/img/banner1.png);
+ display: flex;
+ flex-direction: column;
+}
+
+.cima{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo{
+    font-family: "minya";
+    font-size: 70px;
+    color: #FBF6E2;
+}
+
+.redes{
+    position: absolute;
+    right: 117px;
+}
+
+.facebook{
+    position: absolute;
+    right: 80px;
+}
+
+.instagram{
+    position: absolute;
+    right: 30px;
+}
+
+.email{
+    position: absolute;  
+}
+
+.linha{
+    width: 90%;
+    height: 2px;
+    background-color: #FFECC4;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.baixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+p{
+    font-family: "bold";
+    font-size: 20px;
+    color: #FFECC4;
+}
+
+.inicio{
+    position: absolute;
+    left: 40%;
+}
+
+.cardapio{
+    position: absolute;
+    left: 47%;
+}
+
+.reservas{
+    position: absolute;
+    left: 56%;
+}
+
+.horarios{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+}
+
+.maiusculo{
+    font-size: 30px;
+}
+
+.funcionamento{
+    margin-bottom: 30px;
+}
+
+.segunda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.linha2{
+    width: 400px;
+    height: 2px;
+    background-color: #FBF6E2;
+    position: absolute;
+    bottom: 102px;
+    left: 0px;
+}
+
+.sabado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.linha3{
+    width: 400px;
+    height: 2px;
+    background-color: #FBF6E2;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+}
+
+.domingo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}

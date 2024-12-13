@@ -156,15 +156,168 @@ a{
     left: 51%;
 }
 
-input[type="date"] {
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.data{
     width: 324px;
     height: 62px;
-    border: 1px solid black;
     border-radius: 20px;
-    font-size: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBF6E2;
+    position: absolute;
+    right: 35%;
+    top: 181%;
+}
+
+.pdata{
     font-family: "bold";
+    font-size: 30px;
     color: black;
-    font-size: 16px;
+    padding-right: 40px;
+}
+
+.calendario{
+  position: absolute;  
+  left: 87%;
+}
+
+.horario{
+    width: 324px;
+    height: 62px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBF6E2;
+    position: absolute;
+    right: 35%;
+    top: 196%;
+}
+
+.phora{
+    font-family: "bold";
+    font-size: 30px;
+    color: black;
+    padding-right: 40px;
+}
+
+.relogio{
+  position: absolute;  
+  left: 87%;
+}
+
+.pessoas{
+    width: 428px;
+    height: 62px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBF6E2;
+    position: absolute;
+    right: 28%;
+    top: 211%
+}
+
+.ppessoa{
+    font-family: "bold";
+    font-size: 30px;
+    color: black;
+}
+
+.titulo3{
+    font-family: "minya";
+    color:#EB638E;
+    font-size: 96px;
+    position: absolute;
+    bottom: -155%;
+    right: 60%;
+    text-align: left;
+}
+
+.nome{
+    width: 511px;
+    height: 62px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #FBF6E2;
+    position: absolute;
+    right: 61%;
+    top: 267%;
+}
+
+.pnome{
+    font-family: "bold";
+    font-size: 30px;
+    color: black;
+    padding-left: 25px;
+}
+
+.telefone{
+    width: 342px;
+    height: 62px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #FBF6E2;
+    position: absolute;
+    right: 72.3%;
+    top: 299%;
+}
+
+.pcel{
+    font-family: "bold";
+    font-size: 30px;
+    color: black;
+    padding-left: 25px;
+}
+
+.gmail{
+    width: 399px;
+    height: 62px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #FBF6E2;
+    position: absolute;
+    right: 68.5%;
+    top: 283%;
+}
+
+.pemail{
+    font-family: "bold";
+    font-size: 30px;
+    color: black;
+    padding-left: 25px;
+}
+
+button{
+    font-family: "bold";
+    font-size: 30px;
+    width: 399px;
+    height: 62px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB638E;
+    position: absolute;
+    right: 68.5%;
+    top: 329%;
+    
 }
 
 /* footer */
@@ -175,7 +328,7 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 160%;
+    margin-top: 99%;
 }
 
 .lorem1{

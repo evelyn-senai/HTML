@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(font/Champagne\ &\ Limousines.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(font/Champagne\ &\ Limousines\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "minya";
+    src: url(font/Minya\ DEMO.otf);
+}
+
+@font-face {
+    font-family: "caprasimo";
+    src: url(font/Caprasimo-Regular.ttf)
+}
+
+body{
+    background-color: #FFECC4;
+}
+
+
+.header{
+ width: 1512px;
+ height: 801px;
+ background-image: url(img/img/banner3.png);
+ display: flex;
+ flex-direction: column;
+}
+
+.cima{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo{
+    font-family: "minya";
+    font-size: 70px;
+    color: #FBF6E2;
+}
+
+.redes{
+    position: absolute;
+    right: 117px;
+}
+
+.facebook{
+    position: absolute;
+    right: 80px;
+}
+
+.instagram{
+    position: absolute;
+    right: 30px;
+}
+
+.email{
+    position: absolute;  
+}
+
+.linha{
+    width: 90%;
+    height: 2px;
+    background-color: #FFECC4;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.baixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+p{
+    font-family: "bold";
+    font-size: 20px;
+    color: #FFECC4;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.inicio{
+    position: absolute;
+    left: 40%;
+}
+
+.cardapio{
+    position: absolute;
+    left: 47%;
+}
+
+.reservas{
+    position: absolute;
+    left: 56%;
+}
+.titulo1{
+    font-family: "caprasimo";
+    color:#FFECC4;
+    font-size: 96px;
+    position: absolute;
+    bottom: 21%;
+    right: 5%;
+    text-align: right;
+}
+
+.p1{
+    font-family: "bold";
+    font-size: 30px;
+    color: #FFECC4;
+    text-align: right;
+    position: absolute;
+    top: 89%;
+    left: 42.5%;
+}
+
+.titulo2{
+    font-family: "minya";
+    color:#EB638E;
+    font-size: 96px;
+    position: absolute;
+    bottom: -72%;
+    right: 21%;
+    text-align: left;
+}
+
+.comida5{
+    width: 564px;
+    height: 752px;
+    position: absolute;
+    top: 85%;
+}
+
+.comida6{
+    width: 736px;
+    height: 1104px;
+    position: absolute;
+    top: 208%;
+    left: 51%;
+}
+
+input[type="date"] {
+    width: 324px;
+    height: 62px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: "bold";
+    color: black;
+    font-size: 16px;
+}
+
+/* footer */
+footer{
+    height: 354px;
+    background-color: #EB638E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 160%;
+}
+
+.lorem1{
+  display: flex;
+  flex-direction: column;  
+}
+
+.top1{
+    display: flex;
+  flex-direction: column; 
+   font-family: "regular";
+   font-size: 16px ;
+   color: white;
+}
+
+.lorem2{
+    display: flex;
+    flex-direction: column;  
+  }
+  
+  .top2{
+      display: flex;
+    flex-direction: column; 
+     font-family: "regular";
+     font-size: 16px ;
+     color: white;
+  }
+

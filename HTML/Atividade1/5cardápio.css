@@ -86,6 +86,12 @@ body{
     margin-top: 100px;
 }
 
+.p1{
+    font-family: "bold";
+    font-size: 30px;
+    color: #FFECC4;
+}
+
 p{
     font-family: "bold";
     font-size: 20px;
@@ -129,10 +135,6 @@ a{
     bottom: -13%;
     left: 5%;
     text-align: left;
-}
-
-.maiusculo{
-    font-size: 30px;
 }
 
 .titulo2{
@@ -382,8 +384,8 @@ a{
     width: 144px;
     height: 56px;
     position: absolute;
-    bottom:-245%;
-    right: 78.5%;
+    top: 479%;
+    right: 45.5%;
 }
 
 
@@ -396,6 +398,7 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 160%;
 }
 
 .lorem1{

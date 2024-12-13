@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(font/Champagne\ &\ Limousines.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(font/Champagne\ &\ Limousines\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "minya";
+    src: url(font/Minya\ DEMO.otf);
+}
+
+@font-face {
+    font-family: "caprasimo";
+    src: url(font/Caprasimo-Regular.ttf)
+}
+
+body{
+    background-color: #FFECC4;
+}
+
+
+.header{
+ width: 1512px;
+ height: 839px;
+ background-image: url(img/img/banner2.png);
+ display: flex;
+ flex-direction: column;
+}
+
+.cima{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo{
+    font-family: "minya";
+    font-size: 70px;
+    color: #FBF6E2;
+}
+
+.redes{
+    position: absolute;
+    right: 117px;
+}
+
+.facebook{
+    position: absolute;
+    right: 80px;
+}
+
+.instagram{
+    position: absolute;
+    right: 30px;
+}
+
+.email{
+    position: absolute;  
+}
+
+.linha{
+    width: 90%;
+    height: 2px;
+    background-color: #FFECC4;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.baixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+p{
+    font-family: "bold";
+    font-size: 20px;
+    color: #FFECC4;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.inicio{
+    position: absolute;
+    left: 40%;
+}
+
+.cardapio{
+    position: absolute;
+    left: 47%;
+}
+
+.reservas{
+    position: absolute;
+    left: 56%;
+}
+
+.titulo1{
+    font-family: "caprasimo";
+    color:#FFECC4;
+    font-size: 96px;
+    position: absolute;
+    bottom: 23%;
+    right: 76%;
+    text-align: left;
+}
+
+.texto1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -13%;
+    left: 5%;
+    text-align: left;
+}
+
+.maiusculo{
+    font-size: 30px;
+}
+
+.titulo2{
+    font-family: "minya";  
+    font-size: 70px;
+    color: #EB638E;
+    position: absolute;
+    bottom: -65%;
+    right: 73%;
+  }
+
+ .doces{
+    width: 185px;
+    height: 56px;
+    position: absolute;
+    bottom: -82%;
+    right: 82%;
+ } 
+
+ .cardapio1{
+    height: 731px;
+    width: 1512px;
+    background-color: #FBF6E2;
+    position: absolute;
+    top: 190%;
+}
+
+.fundo{
+    position: absolute;
+    bottom: 5%;
+    right: 66%;
+}
+
+.doce1{
+    width: 342px;
+    height: 394px;
+    position: absolute;
+    bottom: 37%;
+    right: 68.5%;
+}
+
+.torta{
+    font-family: "bold";
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    bottom: 80%;
+    right: 68.5%
+}
+
+.texto2{
+ font-family: "bold";
+ font-size: 30px;
+ color: black;
+ text-align: center;
+ position: absolute;
+ bottom: 11%;
+ right: 69%;
+}
+
+.fundo2{
+    position: absolute;
+    bottom: 5%;
+    right: 35%;
+}
+
+.doce2{
+    width: 342px;
+    height: 394px;
+    position: absolute;
+    bottom: 22%;
+    right: 37.5%;
+}
+
+.chocolate{
+    font-family: "bold";
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    bottom: 72.5%;
+    right: 40%;
+}
+
+.texto3{
+ font-family: "bold";
+ font-size: 30px;
+ color: black;
+ text-align: center;
+ position: absolute;
+ bottom: 11%;
+    right: 38.5%;
+}
+
+.fundo3{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
+
+.doce3{
+    width: 342px;
+    height: 394px;
+    position: absolute;
+    bottom: 22%;
+    right: 10%;
+}
+
+.frutas{
+    font-family: "bold";
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    bottom: 72.5%;
+    right: 10%;
+}
+
+.texto4{
+ font-family: "bold";
+ font-size: 30px;
+ color: black;
+ text-align: center;
+ position: absolute;
+ bottom: 11%;
+    right: 18%;
+}
+
+/* footer */
+footer{
+    height: 354px;
+    background-color: #EB638E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lorem1{
+  display: flex;
+  flex-direction: column;  
+}
+
+.top1{
+    display: flex;
+  flex-direction: column; 
+   font-family: "regular";
+   font-size: 16px ;
+   color: white;
+}
+
+.lorem2{
+    display: flex;
+    flex-direction: column;  
+  }
+  
+  .top2{
+      display: flex;
+    flex-direction: column; 
+     font-family: "regular";
+     font-size: 16px ;
+     color: white;
+  }

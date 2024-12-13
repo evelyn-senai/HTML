@@ -163,7 +163,7 @@ a{
 .fundo{
     position: absolute;
     bottom: 5%;
-    right: 66%;
+    right: 68.5%;
 }
 
 .doce1{
@@ -171,7 +171,7 @@ a{
     height: 394px;
     position: absolute;
     bottom: 37%;
-    right: 68.5%;
+    right: 71%;
 }
 
 .torta{
@@ -180,7 +180,7 @@ a{
     color: black;
     position: absolute;
     bottom: 80%;
-    right: 68.5%
+    right: 71%
 }
 
 .texto2{
@@ -190,13 +190,13 @@ a{
  text-align: center;
  position: absolute;
  bottom: 11%;
- right: 69%;
+ right: 71.5%;
 }
 
 .fundo2{
     position: absolute;
     bottom: 5%;
-    right: 35%;
+    right: 36.5%;
 }
 
 .doce2{
@@ -213,7 +213,7 @@ a{
     color: black;
     position: absolute;
     bottom: 72.5%;
-    right: 40%;
+    right: 41.5%;
 }
 
 .texto3{
@@ -223,13 +223,13 @@ a{
  text-align: center;
  position: absolute;
  bottom: 11%;
-    right: 38.5%;
+ right: 39.5%;
 }
 
 .fundo3{
     position: absolute;
     bottom: 5%;
-    right: 10%;
+    right: 4%;
 }
 
 .doce3{
@@ -237,7 +237,7 @@ a{
     height: 394px;
     position: absolute;
     bottom: 22%;
-    right: 10%;
+    right: 6.5%;
 }
 
 .frutas{
@@ -246,7 +246,8 @@ a{
     color: black;
     position: absolute;
     bottom: 72.5%;
-    right: 10%;
+    right: 5.5%;
+    text-align: center;
 }
 
 .texto4{
@@ -256,8 +257,136 @@ a{
  text-align: center;
  position: absolute;
  bottom: 11%;
-    right: 18%;
+ right: 7.5%;
 }
+
+.salgados{
+    width: 237px;
+    height: 56px;
+    position: absolute;
+    bottom:-245%;
+    right: 78.5%;
+}
+
+.cardapio2{
+    height: 731px;
+    width: 1512px;
+    background-color: #FBF6E2;
+    position: absolute;
+    top: 355%;
+}
+
+.fundo4{
+    position: absolute;
+    bottom: 5%;
+    right: 68.5%;
+}
+
+.salgado1{
+    width: 325px;
+    height: 331px;
+    position: absolute;
+    bottom: 29%;
+    right: 72.5%;
+}
+
+.croissant{
+    font-family: "bold";
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    bottom: 73%;
+    right: 75%;
+    text-align: center;
+}
+
+.texto5{
+ font-family: "bold";
+ font-size: 30px;
+ color: black;
+ text-align: center;
+ position: absolute;
+ bottom: 11%;
+ right: 71.5%;
+}
+
+.fundo5{
+    position: absolute;
+    bottom: 5%;
+    right: 36.5%;
+}
+
+.salgado2{
+    width: 214px;
+    height: 286px;
+    position: absolute;
+    bottom: 29%;
+    right: 43.5%;
+}
+
+.sanduiche{
+    font-family: "bold";
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    bottom: 73%;
+    right: 40.5%;
+    text-align: center;
+}
+
+.texto6{
+ font-family: "bold";
+ font-size: 30px;
+ color: black;
+ text-align: center;
+ position: absolute;
+ bottom: 11%;
+ right: 40.5%;
+}
+
+.fundo6{
+    position: absolute;
+    bottom: 5%;
+    right: 4%;
+}
+
+.salgado3{
+    width: 356px;
+    height: 357px;
+    position: absolute;
+    bottom: 27%;
+    right: 6%;
+}
+
+.salada{
+    font-family: "bold";
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    bottom: 73%;
+    right: 8.5%;
+    text-align: center;
+}
+
+.texto7{
+ font-family: "bold";
+ font-size: 30px;
+ color: black;
+ text-align: center;
+ position: absolute;
+ bottom: 8%;
+    right: 8.5%;
+}
+
+.mais{
+    width: 144px;
+    height: 56px;
+    position: absolute;
+    bottom:-245%;
+    right: 78.5%;
+}
+
+
 
 /* footer */
 footer{
@@ -294,3 +423,4 @@ footer{
      font-size: 16px ;
      color: white;
   }
+

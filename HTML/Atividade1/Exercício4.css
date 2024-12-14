@@ -126,13 +126,15 @@ a:hover {
   flex-direction: column;
   text-align: left;
   position: absolute;
-
+  right: 4%;
+  top: 209%;
 }
 
 .p2{
   font-family: "bold";
   font-size: 30px;
   color: #BFBCDB;
+  margin-bottom: 44px;
 }
 
 p{
@@ -150,6 +152,8 @@ p{
 
 .abertura{
   position: absolute;
+  top: 1285px;
+    left: 210px;
 }
 
 .titulo1{
@@ -157,4 +161,131 @@ p{
  font-size: 128px;
  color: #B92F2A;
  position: absolute;
+ left: 48px;
+    top: 276%;
+}
+
+
+/* parte2 */
+.textos2{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: absolute;
+  right: 64%;
+  top: 343%;
+
+}
+
+.p3{
+  font-family: "bold";
+  font-size: 30px;
+  color: #BFBCDB;
+  margin-bottom: 77px;
+}
+.quadrado2{
+  width: 837px;
+  height: 879px;
+  background-color: #986B41;
+  position: absolute;
+  top: 326%;
+    right: 0%;
+}
+
+.fonte{
+  position: absolute;
+  top: 335%;
+  right: 231px;
+}
+
+.titulo2{
+ font-family: "minya";
+ font-size: 128px;
+ color: #F8BC4A;
+ position: absolute;
+ right: 5%;
+top: 412%;
+text-align: right;
+}
+
+/* parte3 */
+.textos3{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: absolute;
+  right: 4%;
+  top: 515%;
+}
+
+.p4{
+  font-family: "bold";
+  font-size: 30px;
+  color: #BFBCDB;
+  margin-bottom: 77px;
+}
+
+.quadrado3{
+  width: 837px;
+  height: 879px;
+  background-color: #B92F2A;
+  position: absolute;
+  top: 481%;
+}
+
+.centralPerk{
+  position: absolute;
+  top: 506%;
+  left: 210px;
+}
+
+.titulo3{
+ font-family: "minya";
+ font-size: 128px;
+ color: white;
+ position: absolute;
+ left: 13%;
+ top: 588%;
+}
+
+
+/* parte4 */
+.textos4{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: absolute;
+  right: 64%;
+  top: 657%;
+}
+
+.p5{
+  font-family: "bold";
+  font-size: 30px;
+  color: #BFBCDB;
+  margin-bottom: 77px;
+}
+.quadrado4{
+  width: 837px;
+  height: 879px;
+  background-color: #F8BC4A;
+  position: absolute;
+  top: 481%;
+    right: 0%;
+}
+
+.jennifer{
+  position: absolute;
+  top: 660%;
+  right: 231px;
+}
+
+.titulo4{
+ font-family: "minya";
+ font-size: 128px;
+ color: #B92F2A;
+ position: absolute;
+ right: 5%;
+ top: 588%;
+text-align: right;
 }

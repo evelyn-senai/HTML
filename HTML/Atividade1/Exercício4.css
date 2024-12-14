@@ -25,7 +25,7 @@
 }
 
 body{
-  background-color: #BFBCDB;
+  background-color: white;
 }
 
 
@@ -77,7 +77,7 @@ flex-direction: column;
 
 }
 
-p{
+.p1{
   font-family: "regular";
   font-size: 30px;
   color: white;
@@ -102,8 +102,8 @@ p{
   font-size: 30px;
   color: #F8BC4A;
   position: absolute;
-  top: 124%;
-  left: 7%;
+  top: 27%;
+  left: 25%;
 }
 
 .capa{
@@ -114,12 +114,47 @@ p{
   top: 369px;
 }
 
-a {
-  display: inline-block; 
-  transition: transform 0.5s ease; 
+a{
+  transition: ease-in-out 0.3s;
+}
+a:hover { 
+    transform: scale(1.1);  
 }
 
-a:hover {
-  transform: scale(1.0); 
+.textos{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: absolute;
+
 }
 
+.p2{
+  font-family: "bold";
+  font-size: 30px;
+  color: #BFBCDB;
+}
+
+p{
+  font-family: "regular";
+  font-size: 30px;
+  color: #BFBCDB;
+}
+
+.quadrado1{
+  width: 837px;
+  height: 879px;
+  background-color: #F8BC4A;
+  position: absolute;
+}
+
+.abertura{
+  position: absolute;
+}
+
+.titulo1{
+ font-family: "minya";
+ font-size: 128px;
+ color: #B92F2A;
+ position: absolute;
+}

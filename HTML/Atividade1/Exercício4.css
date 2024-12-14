@@ -1,11 +1,125 @@
-h1 {
-  color: darkmagenta;
-  background-color: rgb(249, 239, 149);  
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
-img {
-    width: 900px;
+
+@font-face {
+  font-family: "regular";
+  src: url(font/Champagne\ &\ Limousines.ttf);
 }
-a{
-    color: darkmagenta; 
-    font-size: 20px;  
+
+@font-face {
+  font-family: "bold";
+  src: url(font/Champagne\ &\ Limousines\ Bold.ttf);
 }
+
+@font-face {
+  font-family: "minya";
+  src: url(font/Minya\ DEMO.otf);
+}
+
+@font-face {
+  font-family: "caprasimo";
+  src: url(font/Caprasimo-Regular.ttf)
+}
+
+body{
+  background-color: #BFBCDB;
+}
+
+
+header{
+width: 1512px;
+height: 1111px;
+background-color: #BFBCDB;
+display: flex;
+flex-direction: column;
+}
+
+.cima{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 74px;
+}
+
+.curiosidades{
+  font-family: "minya";
+  font-size: 40px;
+  color: white;
+  margin-left: -57px;
+}
+
+.menu{
+  width: 76px;
+  height: 76px;
+}
+
+.iconPorta{
+  width: 73px;
+  height: 84px;
+  margin-right: -57px;
+}
+
+.corpo{
+  display: flex;
+  flex-direction: row;
+}
+
+.esquerda{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 374px;
+  right: 61%;
+
+}
+
+p{
+  font-family: "regular";
+  font-size: 30px;
+  color: white;
+}
+
+.friends{
+  font-family: "minya";
+  font-size: 128px;
+  color: white;
+  margin-top: 38px;
+    margin-bottom: 42px;
+}
+
+.botao{
+  position: absolute;
+  top: 115%;
+  left: -6%;
+}
+
+.saibaMais{
+  font-family: "minya";
+  font-size: 30px;
+  color: #F8BC4A;
+  position: absolute;
+  top: 124%;
+  left: 7%;
+}
+
+.capa{
+  width: 679px;
+  height: 461px;
+  position: absolute;
+  left: 51%;
+  top: 369px;
+}
+
+a {
+  display: inline-block; 
+  transition: transform 0.5s ease; 
+}
+
+a:hover {
+  transform: scale(1.0); 
+}
+

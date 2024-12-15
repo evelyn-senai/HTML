@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(font/Champagne\ &\ Limousines.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(font/Champagne\ &\ Limousines\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "minya";
+    src: url(font/Minya\ DEMO.otf);
+}
+
+@font-face {
+    font-family: "caprasimo";
+    src: url(font/Caprasimo-Regular.ttf)
+}
+
+body{
+    background-color: #F3EEE8;
+}
+
+header{
+    width: 1512px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F3EEE8 ;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.logo{
+    font-size: 48px;
+    color: #F8C0C9;
+    text-align: center;
+    margin-left: -10%;
+}
+
+.estrela{
+    margin-right: -11%;
+}
+
+h1{
+    font-family: "minya";
+    font-size: 96px;
+}
+
+p{
+    font-family: "bold";
+    font-size: 32px;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.nome{
+    color: #F8C0C9;
+}
+
+.descricao{
+    text-align: center;
+}
+
+.maratonando{
+    text-align: right;
+}
+
+.curiosidade{
+    display: flex;
+    flex-direction: row;
+}
+
+.got{
+    width: 583px;
+    height: 400px;
+    background-color: #E3D9CD;
+    border-radius: 10px;
+    position: absolute;
+}

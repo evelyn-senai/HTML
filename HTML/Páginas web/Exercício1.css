@@ -207,7 +207,7 @@ margin-bottom: 60px;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 10%;
+    margin-left: -5%;
     margin-bottom: 165px;
 }
 
@@ -221,9 +221,83 @@ margin-bottom: 60px;
 .nomes2{
 position: absolute;
 right: 8%;
-top: 245%;
+top: 548%;
 }
 
+.titulo3{
+    color: #F8C0C9;
+margin-top: 216px;
+margin-left: 6%;
+margin-bottom: 60px;
+display: flex;
+justify-content: center;
+}
+
+.animes{
+    width: 1250px;
+    height: 719px;
+    background-color: #E3D9CD;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 1%;
+    margin-bottom: 17%;
+}
+
+.animesFav{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+ }
+.nomes3{
+position: absolute;
+right: 15%;
+    top: 841%;
+text-align: center;
+}
+
+.titulo4{
+    color: #F8C0C9;
+margin-top: 216px;
+margin-left: 6%;
+margin-bottom: 60px;
+display: flex;
+justify-content: center;
+}
+
+.lugar1{
+    width: 1281px;
+    height: 512px;
+    display: flex;
+    align-items: center;
+    justify-content:  space-around;
+    background-color: #E3D9CD ;
+    border-radius: 10px; 
+    margin-left: 133px;  
+}
+
+.lugar2{
+    width: 1281px;
+    height: 512px;
+    display: flex;
+    align-items: center;
+    justify-content:  space-around;
+    background-color: #E3D9CD ;
+    border-radius: 10px; 
+    margin-left: 133px;     
+}
+
+.lugar3{
+    width: 1281px;
+    height: 512px;
+    display: flex;
+    align-items: center;
+    justify-content:  space-around;
+    background-color: #E3D9CD ; 
+    border-radius: 10px; 
+    margin-left: 133px;    
+}
 /* footer */
 footer{
     height: 354px;
@@ -232,7 +306,7 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 160%;
+    margin-top: 5%;
 }
 
 .lorem1{
@@ -259,6 +333,12 @@ footer{
      font-family: "regular";
      font-size: 16px ;
      color: white;
+  }
+
+  .logo2{
+    color: white;
+    font-size: 90px;
+    font-family: "minya";
   }
 
 
